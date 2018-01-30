@@ -15,7 +15,12 @@
 */
 
 //Code here
+var me = {
+  name: 'Tav',
+  age: 23
+}
 
+alert(me.name);
 
 
 ////////// PROBLEM 2 //////////
@@ -26,7 +31,14 @@
 */
 
 //Code here
-
+var favoriteThings = {
+  band: 'Eminem',
+  food: 'Tacos',
+  person: 'Selina',
+  book: 'To Kill a Mockingbird',
+  movie: 'Mr. Brooks',
+  holiday: 'Christmas'
+}
 
 
 /*
@@ -34,7 +46,8 @@
 */
 
 //Code here
-
+favoriteThings.car = 'bmw';
+favoriteThings.brand = 'bmw'
 
 
 /*
@@ -42,7 +55,8 @@
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 
 ////////// PROBLEM 3 //////////
