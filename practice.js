@@ -47,7 +47,7 @@ var favoriteThings = {
 
 //Code here
 favoriteThings.car = 'bmw';
-favoriteThings.brand = 'bmw'
+favoriteThings.brand = 'bmw';
 
 
 /*
@@ -70,7 +70,11 @@ favoriteThings.book = 'Harry Potter';
 */
 
 //Code here
+var backPack = {};
+var item = 'firstPocket';
 
+backPack[item] = 'chapstick';
+backPack.color = 'black';
 
 
 /*
@@ -78,7 +82,7 @@ favoriteThings.book = 'Harry Potter';
 */
 
 //Code here
-
+alert(backPack);
 
 
 /*
@@ -88,7 +92,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack);
 
 
 ////////// PROBLEM 4 //////////
@@ -111,7 +115,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 ////////// EXTRA PRACTICE PROBLEMS BELOW //////////
