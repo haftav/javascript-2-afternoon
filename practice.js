@@ -128,7 +128,7 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
-
+var methodCollection = {};
 
 
 /*
@@ -137,15 +137,21 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
+methodCollection.alertHello = function() {
+  alert('hello');
+}
 
-
+methodCollection.logHello = function() {
+  console.log('hello');
+}
 
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
-
+methodCollection.alertHello();
+methodCollection.logHello();
 
 
 ////////// PROBLEM 6 //////////
@@ -156,7 +162,13 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
-
+function makePerson(name, birthday, ssn) {
+  return {
+    name: name,
+    birthday: birthday,
+    ssn: ssn
+  };
+}
 
 
 ////////// PROBLEM 7 //////////
@@ -167,5 +179,12 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
+function makeCard(number, date, code) {
+  return {
+    number: number,
+    date: date,
+    code: code
+  }
+}
 
 
